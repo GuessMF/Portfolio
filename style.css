@@ -311,11 +311,11 @@ body.dark-theme {
   height: 40px;
 }
 
-@media screen and (max-width: 390px) {
+/* @media screen and (max-width: 390px) {
   .main {
     background-color: #ffe071;
   }
-}
+} */
 
 /* 
 
