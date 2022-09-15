@@ -9,20 +9,6 @@ body {
 body.dark-theme {
   background-color: #0c151d;
 }
-
-/* @media (max-width: 390px) {
-  .changeTheme {
-    background-color: #fbd144;
-  }
-} */
-
-/* @media screen and (min-width: 390px) {
-  .changeTheme {
-    width: 10px;
-    margin-left: 50%;
-    background-color: #fbd144;
-  }
-} */
 .changeTheme {
   margin: 3% auto;
   width: 80px;
@@ -125,7 +111,6 @@ body.dark-theme {
   position: relative;
   width: 631px;
   height: 142px;
-  /* border: black solid 1px; */
   margin: 2% auto;
 }
 
@@ -160,17 +145,14 @@ body.dark-theme {
   margin-left: 248px;
   width: 125px;
   height: 102px;
-  /* border: black solid 1px; */
 }
 .fact3 {
-  /* подстроить */
   text-align: center;
   position: absolute;
   margin-top: 20px;
   margin-left: 479px;
   width: 119px;
   height: 102px;
-  /* border: black solid 1px; */
 }
 .buttonsContact {
   position: relative;
@@ -230,7 +212,6 @@ body.dark-theme {
   background-color: #ffffff;
   position: relative;
   margin: 2% auto;
-  /* border: black solid 1px; */
   width: 760px;
   height: 110px;
   border-radius: 20px;
@@ -274,10 +255,8 @@ body.dark-theme {
   background-color: #0c151d;
 }
 .tabsContent {
-  /* background-color: #ffffff; */
   margin: 2% auto;
   position: relative;
-  /* border: black solid 1px; */
   width: 760px;
   height: auto;
 }
@@ -288,7 +267,6 @@ body.dark-theme {
   margin-left: 8px;
   width: 360px;
   height: 226px;
-  /* border: black solid 1px; */
   border-radius: 15px;
 }
 .portfolio_screen {
