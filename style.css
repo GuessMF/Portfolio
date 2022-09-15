@@ -322,15 +322,11 @@ body.dark-theme {
 
   .main {
     width: auto;
-    /* background-color: #ffe071; */
     display: flex;
     flex-direction: column;
-
     height: 900px;
-    /* justify-content: center; */
   }
   .changeTheme {
-    /* border: black 1px solid; */
   }
   .portfolioInfo {
     display: flex;
@@ -340,7 +336,7 @@ body.dark-theme {
     width: 367px;
     text-align: center;
     background-color: #ffe071;
-    height: 700px;
+    height: 440px;
   }
   .portfolioPhoto {
   }
@@ -350,6 +346,28 @@ body.dark-theme {
   }
   .socialLinks {
     margin: 0 auto;
+  }
+  .portfolioFacts {
+    border: black 1px solid;
+    width: 367px;
+    background-color: #a3abb2;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+  }
+  .fact1 {
+    margin: 0;
+    position: relative;
+  }
+  .fact2 {
+    position: relative;
+    margin: 0;
+  }
+  .fact3 {
+    position: relative;
+    margin: 0;
   }
 }
 
