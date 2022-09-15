@@ -314,7 +314,7 @@ body.dark-theme {
 @media screen and (max-width: 390px) {
   body {
     /* background-color: blue; */
-    width: 368px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -325,6 +325,7 @@ body.dark-theme {
     display: flex;
     flex-direction: column;
     height: 900px;
+    /* background-color: #171f26; */
   }
   .changeTheme {
     width: 50px;
@@ -339,23 +340,35 @@ body.dark-theme {
     flex-direction: row;
     justify-content: center;
     /* border: black 1px solid; */
-    width: 367px;
+    width: 375px;
     text-align: center;
     /* background-color: #ffe071; */
-    height: 440px;
+    height: 350px;
   }
   .portfolioPhoto {
+    /* position: relative; */
+    width: 180px;
+    height: 180px;
+  }
+  .avatar {
+    position: relative;
+    width: 180px;
+    height: 180px;
   }
   .information {
+    position: relative;
+    /* border: black 1px solid; */
     margin: 0;
-    margin-top: 240px;
+    margin-top: 200px;
+    height: 150px;
+    line-height: 20px;
   }
   .socialLinks {
     margin: 0 auto;
   }
   .portfolioFacts {
     /* border: black 1px solid; */
-    width: 367px;
+    width: 375px;
     /* background-color: #a3abb2; */
     margin: 0;
     display: flex;
@@ -376,7 +389,7 @@ body.dark-theme {
     margin: 0;
   }
   .buttonsContact {
-    width: 367px;
+    width: 375px;
     margin: 0;
     /* border: black 1px solid; */
     height: auto;
@@ -385,12 +398,12 @@ body.dark-theme {
     justify-content: center;
   }
   .download_butt {
-    width: 367px;
+    width: 375px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .contact_butt {
-    width: 367px;
+    width: 375px;
     margin: 0;
   }
 }
