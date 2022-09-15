@@ -311,11 +311,27 @@ body.dark-theme {
   height: 40px;
 }
 
-/* @media screen and (max-width: 390px) {
-  .main {
-    background-color: #ffe071;
+@media screen and (max-width: 390px) {
+  body {
+    background-color: blue;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-} */
+
+  .main {
+    width: auto;
+    background-color: #ffe071;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .portfolioInfo {
+    border: black 1px solid;
+    width: 380px;
+  }
+}
 
 /* 
 
