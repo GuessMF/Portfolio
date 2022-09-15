@@ -391,9 +391,7 @@ body.dark-theme {
   }
   .buttonsContact {
     width: 375px;
-
     margin: 0;
-    /* border: black 1px solid; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -409,6 +407,29 @@ body.dark-theme {
     height: 60px;
     width: 375px;
     margin: 0;
+  }
+  .tabsButton {
+    width: 375px;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .portfolio_butt {
+    width: 355px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skills_butt {
+    height: 60px;
+    width: 355px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
   }
 }
 
