@@ -375,6 +375,24 @@ body.dark-theme {
     position: relative;
     margin: 0;
   }
+  .buttonsContact {
+    width: 367px;
+    margin: 0;
+    /* border: black 1px solid; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .download_butt {
+    width: 367px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .contact_butt {
+    width: 367px;
+    margin: 0;
+  }
 }
 
 /* 
