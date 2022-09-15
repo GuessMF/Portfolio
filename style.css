@@ -322,13 +322,15 @@ body.dark-theme {
 
   .main {
     width: auto;
-    background-color: #ffe071;
+    /* background-color: #ffe071; */
     display: flex;
     flex-direction: column;
+
+    height: 900px;
     /* justify-content: center; */
   }
   .changeTheme {
-    border: black 1px solid;
+    /* border: black 1px solid; */
   }
   .portfolioInfo {
     display: flex;
@@ -337,8 +339,17 @@ body.dark-theme {
     border: black 1px solid;
     width: 367px;
     text-align: center;
+    background-color: #ffe071;
+    height: 700px;
   }
   .portfolioPhoto {
+  }
+  .information {
+    margin: 0;
+    margin-top: 240px;
+  }
+  .socialLinks {
+    margin: 0 auto;
   }
 }
 
