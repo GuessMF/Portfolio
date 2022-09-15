@@ -431,6 +431,20 @@ body.dark-theme {
     margin-right: auto;
     margin-bottom: 10px;
   }
+  .tabsContent {
+    width: 375px;
+  }
+  .footer {
+    /* border: black 1px solid; */
+    width: 375px;
+    height: 100px;
+    text-align: center;
+    /* white-space: pre-wrap; */
+  }
+  .reserved {
+    width: 265px;
+    white-space: pre-wrap;
+  }
 }
 
 /* 
