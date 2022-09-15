@@ -435,61 +435,12 @@ body.dark-theme {
     width: 375px;
   }
   .footer {
-    /* border: black 1px solid; */
     width: 375px;
     height: 100px;
     text-align: center;
-    /* white-space: pre-wrap; */
   }
   .reserved {
     width: 265px;
     white-space: pre-wrap;
   }
 }
-
-/* 
-
-@media screen and (max-width: 390px) {
-  .changeTheme {
-    position: relative;
-    margin: 5% auto;
-    width: 80px;
-    /* margin-left: 350px; */
-/* border: 1px black solid; */
-/* }
-  .portfolioInfo {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-    /* border: 1px black solid; */
-/*}
-  .portfolioPhoto {
-    margin-left: 260px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    margin-top: 30px;
-    /* border: 1px black solid; */
-/* }
-  .information {
-    margin-top: 300px;
-    margin-left: 0;
-    border: 1px black solid;
-    width: 844px;
-    height: 90px;
-    text-align: center;
-  }
-  .name {
-    margin-left: 150px;
-    font-size: 60px;
-    width: 844px;
-    border: 1px black solid;
-  }
-  .post {
-    border: 1px black solid;
-    text-align: center;
-  }
-  .portfolioFacts {
-    margin-top: 600px;
-  }
-} */
