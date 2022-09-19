@@ -298,9 +298,6 @@ body.dark-theme {
   border-radius: 15px;
 }
 .landings {
-  font-size: 24px;
-  margin-bottom: -150px;
-  margin-left: 30px;
   /* потом убрать */
 
   display: none;
