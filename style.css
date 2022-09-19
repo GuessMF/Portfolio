@@ -216,7 +216,10 @@ body.dark-theme {
   width: 760px;
   height: auto;
   border-radius: 20px;
+  /* overflow: hidden; */
+  animation: bounce 2s;
 }
+
 .dark-theme .tabsButton {
   background-color: #171f26;
 }
@@ -255,12 +258,13 @@ body.dark-theme {
 .dark-theme .skills_butt:hover {
   background-color: #0c151d;
 }
-.tabs {
-  margin: 2% auto;
+/* .tabs {
+  margin: 3% auto;
   position: relative;
   width: 760px;
-  height: auto;
-}
+  height: 0;
+  animation: bounce 2s forwards;
+} */
 
 .btns {
   width: 230px;
@@ -290,40 +294,49 @@ body.dark-theme {
 
 .javascripts {
   display: none;
-  margin-left: 12px;
-  /* margin-top: 10px; */
-  margin-bottom: 12px;
-  width: 360px;
+  margin: 2% 2%;
+  width: 44%;
   height: 226px;
   border-radius: 15px;
+  opacity: 0;
+  animation: ani 1s forwards;
 }
 .landings {
-  /* потом убрать */
-
   display: none;
-  margin-top: 2%;
-  margin-left: 8px;
-  width: 360px;
+  margin: 2% 2%;
+  width: 44%;
   height: 226px;
   border-radius: 15px;
+  opacity: 0;
+  animation: ani 1s forwards;
 }
+
 .react {
   font-size: 24px;
   margin-bottom: -150px;
   margin-left: 30px;
   /* потом убрать */
   display: none;
-  margin-top: 2%;
-  margin-left: 8px;
-  width: 360px;
+  margin: 2% 2%;
+  width: 44%;
   height: 226px;
   border-radius: 15px;
+  opacity: 0;
+  animation: ani 1s forwards;
 }
 
 #tab-btn-1:checked ~ .landings,
 #tab-btn-2:checked ~ .javascripts,
 #tab-btn-3:checked ~ .react {
   display: inline-block;
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .tabsButton > input[type="radio"]:checked + label {
