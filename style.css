@@ -357,10 +357,10 @@ body.dark-theme {
   height: 40px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   body {
     /* background-color: blue; */
-    width: 375px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -415,7 +415,7 @@ body.dark-theme {
   }
   .portfolioFacts {
     /* border: black 1px solid; */
-    width: 375px;
+    width: auto;
     /* background-color: #a3abb2; */
     margin: 0;
     display: flex;
@@ -436,7 +436,7 @@ body.dark-theme {
     margin: 0;
   }
   .buttonsContact {
-    width: 375px;
+    width: auto;
     margin: 0;
     height: auto;
     display: flex;
@@ -444,14 +444,14 @@ body.dark-theme {
     justify-content: center;
   }
   .download_butt {
-    width: 375px;
+    width: auto;
     height: 60px;
     margin: 0;
     margin-bottom: 10px;
   }
   .contact_butt {
     height: 60px;
-    width: 375px;
+    width: auto;
     margin: 0;
   }
   .tabsButton {
@@ -478,10 +478,15 @@ body.dark-theme {
     margin-bottom: 10px;
   }
   .tabsContent {
-    width: 375px;
+    width: auto;
+  }
+  .btns {
+    background-color: #e5e5e5;
+    width: 340px;
+    margin: 12px auto;
   }
   .footer {
-    width: 375px;
+    width: auto;
     height: 100px;
     text-align: center;
   }
