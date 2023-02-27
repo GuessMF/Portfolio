@@ -209,16 +209,16 @@ body.dark-theme {
   background-color: #a3abb2;
   color: #171f26;
 }
-.tabsButton {
+/* .tabsButton {
   background-color: #ffffff;
   position: relative;
   margin: 2% auto;
-  width: 760px;
+  width: fit-content;
   height: auto;
   border-radius: 20px;
   /* overflow: hidden; */
-  animation: bounce 2s;
-}
+/* animation: bounce 2s; */
+/* }  */
 
 .dark-theme .tabsButton {
   background-color: #171f26;
@@ -267,7 +267,7 @@ body.dark-theme {
 } */
 
 .btns {
-  width: 230px;
+  width: 130px;
   height: 40px;
   background-color: #ffffff;
   color: #19191b;
@@ -292,42 +292,67 @@ body.dark-theme {
   color: #171f26;
 }
 
+.main-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tabsButton {
+  /* border: black 1px solid; */
+  background-color: #ffffff;
+  margin: 2% auto;
+  height: auto;
+  border-radius: 20px;
+}
+/* .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  border: 1px black solid;
+  width: fit-content;
+  height: fit-content;
+} */
+.content img {
+  margin: 7px;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
 .javascripts {
   display: none;
-  margin: 2% 2%;
-  width: 44%;
-  height: 226px;
-  border-radius: 15px;
   opacity: 0;
   animation: ani 1s forwards;
 }
 .landings {
   display: none;
-  margin: 2% 2%;
-  width: 44%;
-  height: 226px;
-  border-radius: 15px;
+  opacity: 0;
+  animation: ani 1s forwards;
+}
+.typescripts {
+  display: none;
   opacity: 0;
   animation: ani 1s forwards;
 }
 
 .react {
-  font-size: 24px;
-  margin-bottom: -150px;
-  margin-left: 30px;
-  /* потом убрать */
   display: none;
-  margin: 2% 2%;
-  width: 44%;
-  height: 226px;
-  border-radius: 15px;
   opacity: 0;
   animation: ani 1s forwards;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
-#tab-btn-1:checked ~ .landings,
-#tab-btn-2:checked ~ .javascripts,
-#tab-btn-3:checked ~ .react {
+#tab-btn-1:checked ~ .content .landings,
+#tab-btn-2:checked ~ .content .javascripts,
+#tab-btn-3:checked ~ .content .typescripts,
+#tab-btn-4:checked ~ .content .react {
   display: inline-block;
 }
 @keyframes ani {
@@ -365,6 +390,15 @@ body.dark-theme {
   margin: 2% auto;
   width: 500px;
   height: 40px;
+}
+
+@media screen and (max-width: 780px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 420px) {
